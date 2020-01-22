@@ -15,6 +15,6 @@ def display_banner():
 
 # stuff
 if __name__ == '__main__':
-    display_banner
+    display_banner()
     words=getInput()
     printOutput(words)
